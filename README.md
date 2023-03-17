@@ -19,7 +19,7 @@ The SimpleSQL compiler consists of several components that work together to proc
 ## How to Use
 1. Clone the repository: 
 ```
-git clone https://github.com/username/SimpleSQL-compiler.git
+git clone https://github.com/hanheeds/SimpleSQL.git
 ```
 2. Compile the program:
 ```
@@ -33,6 +33,8 @@ Replace the '<sql_statement> with the SQL statement that you want to execute. Fo
 ```
 ./compiler "SELECT * FROM customers WHERE country='USA'"
 ```
+Currently, the only datasets available are MovieLens and CTA. However, any other datasets added will be able to work. 
+
 ## Features
 The SimpleSQL compiler currently supports the following SQL statements:
 
